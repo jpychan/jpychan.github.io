@@ -1,0 +1,70 @@
+<html>
+<body>
+
+<p><br /></p>
+<p>About Me</p>
+<p>A</p>
+<p>I</p>
+<p>D</p>
+<p>A</p>
+<p><br /></p>
+<p>Work</p>
+<p>NAGLREP.com - custom Wordpress plug-in development</p>
+<p>Description:</p>
+<p>NAGLREP.com is a membership site for LGBT and LGBT-friendly realtors. I implemented a custom payment system, custom search, and a review system.</p>
+<p><strong>Payment Integration: </strong></p>
+<ul>
+<li>integration with FirstData API</li>
+<li>upon successful payment, create a new account and send payment receipt to user and site admin</li>
+<li>cron job to charge annual membership fee automatically</li>
+</ul>
+<p><strong>Custom Search for Members</strong></p>
+<ul>
+<li>members can add a list of cities to their profiles</li>
+<li>each city is verified with Google Maps API or in the list of accepted cities created by the site admin</li>
+<li>search autocomplete populated with the city/state combination in the database</li>
+<li>profiles support list of cities in multiple states</li>
+<li>custom fields in Edit User page for site admin to edit the list of cities</li>
+</ul>
+<p><strong>Review System: </strong></p>
+<ul>
+<li>site admin receives an email when new review is submitted</li>
+<li>once review is approved, the member will receive an email notification</li>
+<li>each member has an average rating associated with their profile</li>
+</ul>
+<p>Eventbase</p>
+<p><strong>Data Integration: </strong></p>
+<ul>
+<li>CES, SAP Sapphire Now and Cisco Live! Workday were some of the biggest apps I worked on.</li>
+<li>integrate with 3rd party APIs<strong> </strong>to populate event and event attendee data into our system, so app users will always  have up-to-date event information.</li>
+<li>wrote algorithms to determine which attendee role can see or reserve specific sessions.&nbsp;</li>
+<li>mapped venue names to our 3D maps as two different parties were naming the venues, the names sometimes didn&rsquo;t match up. </li>
+</ul>
+<p><strong>Python Microservice:</strong></p>
+<ul>
+<li>act as middleware between various third-party APIs and our event apps, allowing them to make the same API call to our servers without duplicating on each OS.</li>
+<li>integrated with a SOAP API to authenticate and register for events</li>
+</ul>
+<p><strong>MusicXplorer:</strong></p>
+<p>What: Travel planning site for music festivals, comparing travel cost from user&rsquo;s location to festivals around the world</p>
+<p>Technology used: Ruby on Rails, redis, Skyscanner API, Google APIs (Maps, Directions, Places Autocomplete)<br /></p>
+<p>Key Contributions:</p>
+<p>
+<ul>
+	<li>Redis caching allows users to save their default location &amp; favourite events without an account</li>
+	<li>Integration with Skyscanner API lets users book flights directly</li>
+	<li>Saves API data in Redis to avoid unnecessary calls to APIs and database<br /></li>
+	<li>Google Maps showing festival location and driving directions<br /></li>
+	<li>Front&shy;end, mobile responsive design with Skeleton framework and custom CSS<br /></li>
+</ul></p> 
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p>
+<p><br /></p> </body>
+</html>
