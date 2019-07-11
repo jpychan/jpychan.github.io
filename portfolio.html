@@ -38,13 +38,43 @@
     <div id="portfolio" class="container">
       <div class="row portfolio-item">
         <div class="col-xs-12 col-sm-12 col-md-4 portfolio-image">
+          <img src="./assets/images/women-in-web-dev.png">
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-8 portfolio-desc">
+          <h3>Women in Web Dev</h3>
+          <h5>Wordpress - Theme Development, Job Board and Membership Site.</h5>
+          <p>Women in Web Dev is a community for female developers.</p>
+          <div class="read-more-wrapper">
+            <a class="read-more project-link" href="#">Read More</a> | <a class="project-link" href="https://womeninwebdev.com" target="_blank">Visit Site</a>
+          </div>
+
+          <div class="more-info">
+            <h5>Job Board</h5>
+            <ul>
+              <li>Create new custom post types and use Advanced Custom Fields for jobs.</li>
+              <li>Create Gravity Forms for users to submit their own job posts and integrated with Stripe for payment.</li>
+              <li>Create custom RSS feed with custom job titles for RSS email campaign. <a lass="project-link" href="https://preview.mailerlite.com/r5n9g4" target="_blank">See sample issue.</a></li>
+            </ul>
+            <h5>Membership Site:</h5>
+            <ul>
+              <li>Integrate with Memberpress and Stripe to allow members to update or cancel their memberships anytime.</li>
+              <li>Provide content that are only accessible by members.</li>
+            </ul>
+          </div>
+          <div class="read-less-wrapper">
+            <a class="read-less project-link" href="#">Read Less</a> | <a class="project-link" href="https://naglrep.com" target="_blank">Visit Site</a>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row portfolio-item">
+        <div class="col-xs-12 col-sm-12 col-md-4 portfolio-image">
           <img src="./assets/images/naglrep.jpeg">
         </div>
         <div class="col-xs-12 col-sm-12 col-md-8 portfolio-desc">
           <h3>NAGLREP.com</h3>
-          <h5>Custom Wordpress Development</h5>
+          <h5>Wordpress - Payment Integration, Custom Search and Review System.</h5>
           <p>NAGLREP.com is a membership site for LGBT and LGBT-friendly realtors.</p>
-          <p><strong>Features:</strong> Custom payment integration, custom search and review system.</p>
           <div class="read-more-wrapper">
             <a class="read-more project-link" href="#">Read More</a> | <a class="project-link" href="https://naglrep.com">Visit Site</a>
           </div>
@@ -53,20 +83,20 @@
             <h5>Payment Integration with FirstData API:</h5>
             <ul>
               <li>Upon successful payment, create a new account and send payment receipt to user and site admin.</li>
-              <li>Wrote cron job to charge annual membership fee automatically when membership expires.</li>
+              <li>Automatically charge annual membership fee when payment is due.</li>
             </ul>
 
             <h5>Custom Search for Members</h5>
             <ul>
-              <li>Users can search for realtors based on the cities listed on the members' profiles.</li>
-              <li>Search autocomplete populated with the city/state combination in the database.</li>
+              <li>Users can search for realtors based on the various cities listed on the members' profiles.</li>
+              <li>Search autocomplete populated with all of the city/state combinations in the database.</li>
               <li>Each city is verified with Google Maps API or in the list of accepted cities created by the site admin.</li>
-              <li>Custom fields in Edit User page for site admin to edit the list of cities for members.</li>
+              <li>Admin can edit list of cities associated for each member.</li>
             </ul>
             <h5>Review System:</h5>
             <ul>
-              <li>When new review is submitted, site admin receives an email to approve.</li>
-              <li>Upon approval, the member will receive an email notification linking to the new review.</li>
+              <li>When a new review is submitted, site admin receives email notitication to approve.</li>
+              <li>Upon approval, the member receives email notification of the new review.</li>
               <li>Each member has an average rating associated with their profile.</li>
             </ul>
           </div>
@@ -109,7 +139,7 @@
       </div>
       <hr>
 
-      <div class="row portfolio-item">
+      <div class="row portfolio-item" style="display:none;">
         <div class="col-xs-12 col-sm-12 col-md-4 portfolio-image">
           <img src="./assets/images/musicxplorer.png">
         </div>
